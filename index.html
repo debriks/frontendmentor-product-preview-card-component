@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="product-card">
+        <img
+          src="images/image-product-desktop.jpg"
+          class="product-image desktop-photo"
+          alt="perfume"
+        />
+        <img
+          src="images/image-product-mobile.jpg"
+          class="product-image mobile-photo"
+          alt="perfume"
+        />
+        <div class="product-info">
+          <div class="product-category">Perfume</div>
+          <h1 class="product-name">
+            Gabrielle Essence Eau <br />
+            De Parfum
+          </h1>
+          <h2 class="product-description">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </h2>
+          <span class="product-price">
+            <span class="discount-price">$149.99</span>
+            <span class="full-price">$169.99</span>
+          </span>
+          <button class="btn">
+            <img src="images/icon-cart.svg" class="cart-icon" alt="cart-icon" />
+            <div>Add to Cart</div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
