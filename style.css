@@ -128,8 +128,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 12px;
-  width: 238px;
-  height: 50px;
+  padding: 15px 0;
   background-color: var(--color-dark-cyan);
   font-family: var(--ff-sans-serif);
   font-size: 13px;
