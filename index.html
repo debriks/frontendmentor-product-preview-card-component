@@ -30,8 +30,8 @@
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    <div class="container">
-      <div class="product-card">
+    <div class="container d-flex">
+      <div class="product-card d-flex flex-row">
         <img
           src="images/image-product-desktop.jpg"
           class="product-image desktop-photo"
@@ -42,7 +42,7 @@
           class="product-image mobile-photo"
           alt="perfume"
         />
-        <div class="product-info">
+        <div class="product-info d-flex flex-column">
           <div class="product-category">Perfume</div>
           <h1 class="product-name">
             Gabrielle Essence Eau <br />
@@ -52,7 +52,7 @@
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </h2>
-          <span class="product-price">
+          <span class="product-price d-flex flex-row">
             <span class="discount-price">$149.99</span>
             <span class="full-price">$169.99</span>
           </span>
