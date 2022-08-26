@@ -1,0 +1,73 @@
+:root {
+  --color-dark-cyan: hsl(158, 36%, 37%);
+  --color-cream: hsl(30, 38%, 92%);
+  --color-very-dark-blue: hsl(212, 21%, 14%);
+  --color-dark-grayish-blue: hsl(228, 12%, 48%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-hover-dark-cyan: #1a4031;
+
+  /* // Typography */
+  --fs-base: 14px;
+  --ff-sans-serif: "Montserrat", sans-serif;
+  --ff-serif: "Fraunces", serif;
+  --fw-500: 500;
+  --fw-700: 700;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--color-cream);
+}
+
+img {
+  max-width: 50%;
+  display: block;
+}
+
+.container {
+  max-width: 600px;
+}
+
+/* // Helper classes */
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+/* // Product Card */
+
+.desktop-photo {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.mobile-photo {
+  display: none;
+}
